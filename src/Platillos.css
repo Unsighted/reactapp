@@ -1,0 +1,90 @@
+#root {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #e7efa5;
+  }
+
+ .contain{
+	 display: none;
+ } 
+
+ .espacio{
+	 margin-right: 5px;
+ }
+
+.ImagenPlatillo{
+	height: 80px;
+	width: 80px;
+	float: left;
+	/*padding: 2px;*/
+	margin: 10px;
+	margin-left: 0;
+}
+.Platillo-Menu{
+	max-height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.Pedidos-Menu{
+	max-height: 600px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.TitlePlatillo{
+	margin-top: 0;
+	text-align: left;
+}
+.DescripcionPlatillo{
+	text-align: justify;
+	/* color: peachpuff; */
+}
+div.jumbotron{
+	background-color: #78b5d4;
+	border: none;
+	margin-top: 4px;
+	box-shadow: rgb(77, 107, 107) 6px 9px 11px;
+}
+
+div.panel-body{
+	background-color: lightsteelblue;
+}
+
+div.panel-primary {
+    border-color: #444c52;
+}
+
+div.panel{
+	box-shadow: rgb(77, 107, 107) 6px 9px 11px;
+	
+}
+
+div.list-group-item{
+	 background: lavender;
+}
+.a {
+	display: flex;
+	justify-content: flex-end;
+  }
+.title{
+	text-align: center;
+	color: white;
+	font-family: cursive;
+}
+.PrecioPlatillo{
+	margin-left: 60px;
+}
+.EspacioPlatillo{
+	float: right;
+	margin-left: 10px;
+}
+.AlineacionBoton{
+	float: right;
+}
+.APrecioCantidad{
+	float: right;
+}
+.ListMargin{
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
